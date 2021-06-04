@@ -3,7 +3,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Hero from './components/Hero';
 import Navigation from "./components/Navigation";
 import NavTabs from './components/NavTabs';
-import TopicsList from './components/TopicsList';
+import Tutorials from './components/Tutorials';
 import Home from './components/Home';
 import Curriculum from './components/Curriculum';
 import {BrowserRouter as Router, Route, Switch} from 'react-router-dom'
@@ -17,7 +17,7 @@ function App() {
                 <NavTabs/>
                 <Switch>
                     <Route exact path='/' component={Home} />
-                    <Route path='/tutorials' component={TopicsList}/>
+                    <Route path='/tutorials' component={Tutorials}/>
                     <Route path="/curriculum" component={Curriculum}/>
                 </Switch>
             </Router>
