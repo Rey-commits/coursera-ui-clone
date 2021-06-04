@@ -56,17 +56,37 @@
     text-align: center;
     color: #006600;
 }
+.tutorial-button{
+    margin: 1rem auto;
+}
 .card-button{
     margin: 0 auto;
 }
 
 /* Curriculum */
+.curriculum-container{
+    margin: 1rem auto;
+}
+.curriculum-text{
+    margin: 3rem auto 0 auto;
+    text-align: center;
+    font-family: 'Roboto Mono', monospace;
+    color: #006600;
+}
 .curriculum-individual-div{
     width: 70%;
     margin: 2rem auto;
 }
 .course-title-text{
     text-align: center;
+    font-family: 'Roboto Mono', monospace;
+    color: #006600;
+}
+.curriculum-card-button{
+    margin: 1rem auto;
+}
+/* NavTabs */
+.individual-tab-links{
     font-family: 'Roboto Mono', monospace;
     color: #006600;
 }
