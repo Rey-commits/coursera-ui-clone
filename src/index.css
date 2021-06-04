@@ -53,6 +53,8 @@
 .individual-card{
     margin: 1rem 0;
     font-family: 'Roboto Mono', monospace;
+    text-align: center;
+    color: #006600;
 }
 .card-button{
     margin: 0 auto;
@@ -62,4 +64,9 @@
 .curriculum-individual-div{
     width: 70%;
     margin: 2rem auto;
+}
+.course-title-text{
+    text-align: center;
+    font-family: 'Roboto Mono', monospace;
+    color: #006600;
 }
