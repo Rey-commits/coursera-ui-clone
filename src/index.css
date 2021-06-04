@@ -1,11 +1,18 @@
 /* Navigation */
+
 .nav-dropdown{
     margin-right: 2rem;
 }
 .logo{
     width: 2.5rem;
 }
-
+.logo-text{
+    font-family: 'Roboto Mono', monospace;
+}
+.navlink-item{
+    color: rgb(44, 44, 44);
+    font-family: 'Roboto Mono', monospace;
+}
 /* Hero */
 .hero-jumbotron{
     /* background-image: linear-gradient(rgba(0, 0, 0, 0.145),rgba(0, 0, 0, 0.323)), url("https://www.teahub.io/photos/full/123-1238617_night-camping-4k.jpg") ; */
@@ -18,15 +25,19 @@
 .hero-div{
     color: antiquewhite;
     margin: 2rem auto 0 auto;
-    font-family: 'Source Sans Pro', sans-serif;
+    /* font-family: 'Source Sans Pro', sans-serif; */
+    font-family: 'Roboto Mono', monospace;
 
 }
 .hero-title{
-    font-weight: 900;
+    font-weight: 400;
 }
 .hero-description{
-    font-weight: 500;
-    width: 60%;
+    font-weight: 400;
+    width: 90%;
+}
+.hero-button{
+    margin: 1rem 0 0 0;
 }
 @media only screen and (max-width: 600px) {
     .hero-jumbotron{
@@ -41,4 +52,14 @@
 }
 .individual-card{
     margin: 1rem 0;
+    font-family: 'Roboto Mono', monospace;
+}
+.card-button{
+    margin: 0 auto;
+}
+
+/* Curriculum */
+.curriculum-individual-div{
+    width: 70%;
+    margin: 2rem auto;
 }
