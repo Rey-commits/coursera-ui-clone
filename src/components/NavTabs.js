@@ -9,17 +9,17 @@ function NavTabs() {
             <Nav fill variant="tabs" defaultActiveKey="/">
                 <Nav.Item>
                     <LinkContainer to="/">
-                        <Nav.Link>Home</Nav.Link>
+                        <Nav.Link><span className="individual-tab-links">Home</span></Nav.Link>
                     </LinkContainer>
                 </Nav.Item>
                 <Nav.Item>
                     <LinkContainer to="/curriculum">
-                        <Nav.Link >Curriculum</Nav.Link>
+                        <Nav.Link><span className="individual-tab-links">Curriculum</span></Nav.Link>
                     </LinkContainer>
                 </Nav.Item>
                 <Nav.Item>
                     <LinkContainer to="/tutorials">
-                        <Nav.Link eventKey="link-1">Video Tutorials</Nav.Link>
+                        <Nav.Link eventKey="link-1"><span className="individual-tab-links">Video Tutorials</span></Nav.Link>
                     </LinkContainer>
                 </Nav.Item>
             </Nav>
